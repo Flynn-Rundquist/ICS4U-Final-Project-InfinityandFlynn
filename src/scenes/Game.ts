@@ -16,7 +16,6 @@ export class Game extends Phaser.Scene {
     private healthText: Phaser.GameObjects.Text
     private scoreText: Phaser.GameObjects.Text
     private helpText: Phaser.GameObjects.Text
-
     private player: Player | null = null
     private enemies: Phaser.GameObjects.Group | null = null
     private cursors: Phaser.Types.Input.Keyboard.CursorKeys | null = null
